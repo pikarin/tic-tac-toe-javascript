@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditia's Tic Tac Toe Game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Aditia's Tic Tac Toe Game</h1>
+        <h2>With customizable board size!</h2>
+    </header>
+
+    <section id="options">
+        <form>
+            <label for="boardsizeInput">Board Size:</label>
+            <input id="boardsizeInput" type="number" min="3" max="50" value="3"></input>
+        </form>
+        <button id="optionSubmit">Play</button>
+    </section>
+
+    <section id="turnIndicator"></section>
+
+    <section id="game">
+        <!-- game board will be injected here -->
+    </section>
+
+    <footer>M. Aditia Firmansyah 2021</footer>
+</body>
+
+</html>
